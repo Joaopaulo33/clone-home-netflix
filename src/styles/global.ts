@@ -1,8 +1,9 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components';
 export const GlobalStyle = createGlobalStyle`
+
   *{
-        margin:0;
-        padding: 0;
+        margin:0px;
+        padding:0px;
         box-sizing: border-box;
         font:sans-serif;
     }
@@ -10,5 +11,9 @@ export const GlobalStyle = createGlobalStyle`
     button{
         cursor: pointer;
     }
-
+    
+    body {
+        background-size: 900px; ;
+        background-image: url(/background_img.png);
+    }
 `
