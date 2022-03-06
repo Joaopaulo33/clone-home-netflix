@@ -21,7 +21,7 @@ export const Content = styled.main`
 
         margin: 0px 75px;
         font-family: 'Helvetica';
-        font-size:4rem;
+        font-size:3.8rem;
         color:#FFFFFF;
         max-width:800px;
         display: block;
@@ -53,14 +53,31 @@ export const Content = styled.main`
         font-size: 1.25rem;
         font-weight: normal;
         font-family: 'Helvetica';
+        padding: 0px 48px 20px;
+        margin: 0px 98px;
     }
 
     input{
         height: 60px;
-        width: 100%
+        width: 478px;
+        box-sizing:content-box;
+        padding:10px 10px 0px;
+        margin:0px;
+     
+    }
+
+    button{
+        font-size: 1.875rem;
+        min-height: 60px;
+        box-sizing:content-box;
+        margin:0px;
+        padding: 0px 30px;
+        background: #f40612;
+        color: #FFFFFF;
+
+    }
+    .span_button{
+        padding: 8px 0px
     }
 `
 
-export const FormSubscription = styled.form`
-    
-`
