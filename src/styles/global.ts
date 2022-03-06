@@ -12,8 +12,13 @@ export const GlobalStyle = createGlobalStyle`
         cursor: pointer;
     }
     
-    body {
-        background-size: 900px; ;
+    body{
         background-image: url(/background_img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+         width: 100%;
+        height: 100%;
+
     }
+
 `

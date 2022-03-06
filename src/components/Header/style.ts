@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.header`
-    margin: 20px 0px 0px;
+    margin:0px;
     padding: 8px 0px 0px;  
 `
 
@@ -28,7 +28,7 @@ export const Container = styled.header`
     width:110px;
     padding-left: 1.375rem;
     padding-right: 1.375rem;
-    margin: 0 32px 0 32px;
+    margin: 0 32px 0 12px;
     
 
     //background: rgba(0,0,0,.4);
@@ -41,6 +41,9 @@ export const Container = styled.header`
     white-space: nowrap;
     border-radius: 2px;
  
+}
+img{
+    padding-top:10px ;
 }
 
 div{

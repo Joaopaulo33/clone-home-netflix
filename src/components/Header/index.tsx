@@ -1,5 +1,5 @@
     import { Container, Content } from "./style"
-    import logoImg from '../../assets/netflix-logo-167.png';
+    import logoImg from '../../assets/netflix-logo.png';
 
     export function Header(){
         
