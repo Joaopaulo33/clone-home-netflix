@@ -10,10 +10,10 @@
                    <span><img src={logoImg} alt="Logo" /></span> 
                   <div>
                       <div>
-                          <select>
+                        <select>
                             <option value="/br/">Português</option>
-                            <option value="/br/">Inglês</option>
-                                              </select>
+                            <option value="/us/">Inglês</option>
+                        </select>
                       </div>
                     <a href="">Entrar</a>
                     </div>

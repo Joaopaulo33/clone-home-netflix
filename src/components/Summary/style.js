@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 
 export const Container = styled.div`
-    padding: 70px;
+    padding: 85px 70px 70px 23px;
     margin:0px;
     box-sizing: border-box;
     display: block;
@@ -21,7 +21,7 @@ export const Content = styled.main`
 
         margin: 0px 75px;
         font-family: 'Helvetica';
-        font-size:3.8rem;
+        font-size:3.85rem;
         color:#FFFFFF;
         max-width:800px;
         display: block;
@@ -58,26 +58,36 @@ export const Content = styled.main`
     }
 
     input{
-        height: 60px;
-        width: 478px;
+        height: 58px;
+        width:478px ;        
         box-sizing:content-box;
         padding:10px 10px 0px;
-        margin:0px;
-     
+
+        ::-webkit-input-placeholder  { 
+        font-size:15px }
+        margin:auto;
+        border-radius:3px 0px 0px 3px ;
+            
     }
 
-    button{
-        font-size: 1.875rem;
-        min-height: 60px;
+    button{position:relative;
+        font-size: 1.775rem;
+        height: 66.5px;
+        width:150px ;
         box-sizing:content-box;
         margin:0px;
         padding: 0px 30px;
-        background: #f40612;
+        background: #e50914;
         color: #FFFFFF;
+        border-color:#f03c02;
 
     }
+
     .span_button{
-        padding: 8px 0px
+        padding: 8px 0px;    
     }
+
+  
+
 `
 

@@ -15,6 +15,7 @@ export const Container = styled.header`
 
     a{ 
         font-size:1rem;
+        font-family: 'Helvetica';
         background: #e50914;
         color:#FFFFFF;
         text-decoration:none;
@@ -24,21 +25,38 @@ export const Container = styled.header`
 
 
     select{ 
+        font-size: .875rem;
     height:36px;
     width:110px;
-    padding-left: 1.375rem;
-    padding-right: 1.375rem;
+     padding-left: 1.375rem;
+    padding-right: 1.375rem; 
     margin: 0 32px 0 12px;
-    
+    color:#FFFFFF;
 
-    //background: rgba(0,0,0,.4);
+    background: rgba(0,0,0,.4);
+    background-image:url('../src/assets/arrow_here_go.png') ;
     text-align:center;
     border: 1px solid #aaa;
+
+    
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    /* background: url(../assets/arrow-netflix-logo-167.png); */
-    white-space: nowrap;
+    
+    &::after {
+            content: '&#x003E';		
+            height: 24px;
+			width: 24px;
+			position: absolute;
+			top: 10;
+			right: 10;
+		}
+  
+
+    /* white-space: nowrap; */
+
+
+
     border-radius: 2px;
  
 }
