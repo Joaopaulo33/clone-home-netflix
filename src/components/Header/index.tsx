@@ -1,5 +1,6 @@
     import { Container, Content } from "./style"
     import logoImg from '../../assets/netflix-logo.png';
+    import select_netflix from '../../assets/select-netlfix.png';
 
     export function Header(){
         
@@ -10,10 +11,7 @@
                    <span><img src={logoImg} alt="Logo" /></span> 
                   <div>
                       <div>
-                        <select>
-                            <option value="/br/">Português</option>
-                            <option value="/us/">Inglês</option>
-                        </select>
+                            <img src={select_netflix} alt="Select" id="id_select_netflix" />
                       </div>
                     <a href="">Entrar</a>
                     </div>

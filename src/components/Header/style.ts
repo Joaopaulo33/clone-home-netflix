@@ -23,43 +23,16 @@ export const Container = styled.header`
         border-radius:3px ;
     }
 
+ #id_select_netflix{
+     width:115px ;
+     height:40px ;
+     margin: 0 32px 0 12px;
+     position: absolute;
+     bottom:-15px ;
+     left:-168px;
+     padding:0px ;
+ }
 
-    select{ 
-        font-size: .875rem;
-    height:36px;
-    width:110px;
-     padding-left: 1.375rem;
-    padding-right: 1.375rem; 
-    margin: 0 32px 0 12px;
-    color:#FFFFFF;
-
-    background: rgba(0,0,0,.4);
-    background-image:url('../src/assets/arrow_here_go.png') ;
-    text-align:center;
-    border: 1px solid #aaa;
-
-    
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    
-    &::after {
-            content: '&#x003E';		
-            height: 24px;
-			width: 24px;
-			position: absolute;
-			top: 10;
-			right: 10;
-		}
-  
-
-    /* white-space: nowrap; */
-
-
-
-    border-radius: 2px;
- 
-}
 img{
     padding-top:10px ;
 }
