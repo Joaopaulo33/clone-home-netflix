@@ -1,3 +1,8 @@
+
+
+# Clone da página inicial da netflix.
+![PáginaNetflix](https://user-images.githubusercontent.com/96788718/162943039-0f439ce2-90a6-43fd-8f01-1e9d32b4d17f.jpg)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
